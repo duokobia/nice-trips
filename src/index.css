@@ -13,3 +13,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*LandingPage section*/
+.landingPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  border: 2px solid green;
+}
+
+/*Booking section*/
+.booking-container {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 2px solid blue;
+}
+
+/*Iternary section */
+.iternary-container {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 2px solid brown;
+}

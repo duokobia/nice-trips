@@ -3,7 +3,7 @@
 <div align="center">Auto formatted with Prettier and deployed with Vercel.🎗</div>
 
 <h3 align="center">
-  <a href="https://nice-trips-duokobia.vercel.app/">Visit the live app</a> |
+  <a href="https://nice-trips-a008ecju3-duokobia.vercel.app/">Visit the live app</a> |
   <a href="https://github.com/duokobia/nice-trips/tree/main">View client</a> |
 </h3>
 
