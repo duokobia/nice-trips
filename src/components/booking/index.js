@@ -13,32 +13,32 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 const Booking = () => {
   return (
-    <section className="booking-container container px-0">
-      <header className="booking-header row">
+    <section className="booking-container container-fluid px-0">
+      <header className="booking-header w-100 row">
         <h3 className="logo col-md-12 my-5 fs-2 ms-4">Nice Trips</h3>
-        <nav className="booking-header-navlist row mx-0">
-          <ul>
-            <li className="navListBtn" selected>
-              <a href="/">
-                <MdFlight />
+        <nav className="row mx-0 px-0">
+          <ul className="col-12">
+            <li className="booking-header-navlist py-4 d-inline-block" selected>
+              <a href="/" class="text-decoration-none">
+                <MdFlight className="fs-3" />
                 <span>Flight</span>
               </a>
             </li>
-            <li>
-              <a href="/">
-                <MdTrain />
+            <li className="booking-header-navlist py-4 d-block">
+              <a href="/" class="text-decoration-none">
+                <MdTrain className="fs-3" />
                 <span>Trains</span>
               </a>
             </li>
-            <li>
-              <a href="/">
-                <RiShipFill />
+            <li className="booking-header-navlist py-4 d-block">
+              <a href="/" class="text-decoration-none">
+                <RiShipFill className="fs-3" />
                 <span>Ship</span>
               </a>
             </li>
-            <li>
-              <a href="/">
-                <AiFillCar />
+            <li className="booking-header-navlist py-4 d-block">
+              <a href="/" class="text-decoration-none">
+                <AiFillCar className="fs-3" />
                 <span>Cars</span>
               </a>
             </li>
@@ -46,13 +46,13 @@ const Booking = () => {
         </nav>
       </header>
       <main className="booking-main row mx-4">
-        <card className="booking-header-card row my-3">
+        <card className="booking-header-card row mt-4 mb-4">
           <h1 className="form-header col-md-12 fs-1">Best flight deals with</h1>
           <h2 className="form-logo col-md-12 fs-1">Nice Trips</h2>
         </card>
         <form>
           <div className="mb-4">
-            <label for="exampleInputEmail1" className="form-label">
+            <label for="departFrom" className="form-label">
               Depart from
               <MdFlightTakeoff />
               <MdFlightLand />
@@ -62,25 +62,25 @@ const Booking = () => {
             <input
               type="email"
               className="form-control py-3"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              id="departFrom"
+              aria-describedby="departureHelp"
               placeholder="London - All Airports, England, UK"
             />
           </div>
           <div class="mb-4">
-            <label for="exampleInputPassword1" className="form-label">
+            <label for="arrivalAt" className="form-label">
               Arrive at
             </label>
             <input
               type="password"
               className="form-control py-3"
-              id="exampleInputPassword1"
+              id="arrivalAt"
               placeholder="New York - All Airports, New York, USA"
             />
           </div>
           <div className="row mb-4 form-datepicker">
             <div className="col">
-              <label for="date" className="col-6 col-form-label">
+              <label for="departureDate" className="col-6 col-form-label">
                 Departure date
               </label>
               <div className="col-12">
@@ -93,14 +93,14 @@ const Booking = () => {
                   <input
                     type="text"
                     className="form-control py-2"
-                    id="date"
+                    id="departureDate"
                     placeholder="11/11/2019"
                   />
                 </div>
               </div>
             </div>
             <div className="col-6">
-              <label for="date" className="col-6 col-form-label">
+              <label for="returnDate" className="col-6 col-form-label">
                 Return date
               </label>
               <div className="col-12">
@@ -113,7 +113,7 @@ const Booking = () => {
                   <input
                     type="text"
                     className="form-control"
-                    id="date"
+                    id="returnDate"
                     placeholder="30/11/2019"
                   />
                 </div>
@@ -122,7 +122,7 @@ const Booking = () => {
           </div>
           <div className="row mb-4 form-classpassenger">
             <div className="form-class col-6">
-              <label for="date" className="col-6 col-form-label">
+              <label for="classOfSeat" className="col-6 col-form-label">
                 Class
               </label>
               <select
@@ -136,7 +136,7 @@ const Booking = () => {
               </select>
             </div>
             <div className="form-passengers col-6">
-              <label for="date" className="col-6 col-form-label">
+              <label for="numberOfPassengers" className="col-6 col-form-label">
                 Passengers
               </label>
               <select
