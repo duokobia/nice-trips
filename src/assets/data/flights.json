@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 856,
+    "carrier": "1501"
+  },
+  {
+    "id": 2,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 0,
+    "flightDuration": "8hours 23mins",
+    "price": 980,
+    "carrier": "1504"
+  },
+  {
+    "id": 3,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 1012,
+    "carrier": "1501"
+  },
+  {
+    "id": 4,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 908,
+    "carrier": "1503"
+  },
+  {
+    "id": 5,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 756,
+    "carrier": "1500"
+  },
+  {
+    "id": 6,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 0,
+    "flightDuration": "8hours 23mins",
+    "price": 830,
+    "carrier": "1500"
+  },
+  {
+    "id": 7,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 750,
+    "carrier": "1501"
+  },
+  {
+    "id": 8,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 820,
+    "carrier": "1503"
+  },
+  {
+    "id": 9,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 750,
+    "carrier": "1501"
+  },
+  {
+    "id": 10,
+    "departureDate": "11-11-2019",
+    "departureTime": "7:34 PM",
+    "arrivalDate": "11-11-2019",
+    "arrivalTime": "7:34 AM",
+    "stops": 1,
+    "flightDuration": "8hours 23mins",
+    "price": 820,
+    "carrier": "1503"
+  }
+]

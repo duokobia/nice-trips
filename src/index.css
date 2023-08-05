@@ -128,8 +128,6 @@ code {
   height: 4rem;
   overflow: auto;
 }
-/* navListBtn {
-} */
 
 /*Iternary section */
 .iternary-container {
@@ -139,6 +137,7 @@ code {
   align-items: center;
   justify-content: flex-start;
   background-color: #e9f0f8;
+  background-size: auto;
   width: 100%;
   min-height: 100vh;
   border: 0;

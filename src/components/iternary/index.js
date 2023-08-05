@@ -1,7 +1,21 @@
-import React from 'react';
 import { BiRightArrowAlt } from "react-icons/bi";
+import CarrierCard from '../carrierCard';
+import flights  from "../../assets/data/flights.json";
+import DataTable from "react-data-table-component";
 
 const Iternary = () => {
+
+  const column = [
+    {
+      name: "",
+      selector: (row) => {
+        console.log(row);
+        return CarrierCard(row);
+      },
+      // width: "100%",
+      minWidth: "100%",
+    },
+  ];
   return (
     <section className="iternary-container container-fluid px-0">
       <header className="iternary-header row">
@@ -48,122 +62,14 @@ const Iternary = () => {
         </card>
       </header>
       <main className="iternary-main row">
-        <card className="iternary-main-card row my-3">
-          <span className="iternary-main-card-span col-4">
-            British Airways logo
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Depart</span>
-            <span className="iternary-main-card-innerspan-date">
-              11/11/2019
-            </span>
-            <span className="fs-5">7:34PM</span>
-          </span>
-          <span className="iternary-main-card-span col fs-6">
-            <span className="iternary-main-card-innerspan my-2">0 Stops</span>
-            <span className="iternary-main-card-innerspan-time fs-6">
-              6Hours 45mins
-            </span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Arrive</span>
-            <span className="iternary-main-card-innerspan-date">
-              12/11/2019
-            </span>
-            <span className="fs-5">2:45PM</span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Price</span>
-            <span className="iternary-main-card-innerspan-price">$ 856</span>
-          </span>
-        </card>
-        <card className="iternary-main-card row my-3">
-          <span className="iternary-main-card-span col-4">
-            British Airways logo
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Depart</span>
-            <span className="iternary-main-card-innerspan-date">
-              11/11/2019
-            </span>
-            <span className="fs-5">7:34PM</span>
-          </span>
-          <span className="iternary-main-card-span col fs-6">
-            <span className="iternary-main-card-innerspan my-2">0 Stops</span>
-            <span className="iternary-main-card-innerspan-time fs-6">
-              6Hours 45mins
-            </span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Arrive</span>
-            <span className="iternary-main-card-innerspan-date">
-              12/11/2019
-            </span>
-            <span className="fs-5">2:45PM</span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Price</span>
-            <span className="iternary-main-card-innerspan-price">$ 856</span>
-          </span>
-        </card>
-        <card className="iternary-main-card row my-3">
-          <span className="iternary-main-card-span col-4">
-            British Airways logo
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Depart</span>
-            <span className="iternary-main-card-innerspan-date">
-              11/11/2019
-            </span>
-            <span className="fs-5">7:34PM</span>
-          </span>
-          <span className="iternary-main-card-span col fs-6">
-            <span className="iternary-main-card-innerspan my-2">0 Stops</span>
-            <span className="iternary-main-card-innerspan-time fs-6">
-              6Hours 45mins
-            </span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Arrive</span>
-            <span className="iternary-main-card-innerspan-date">
-              12/11/2019
-            </span>
-            <span className="fs-5">2:45PM</span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Price</span>
-            <span className="iternary-main-card-innerspan-price">$ 856</span>
-          </span>
-        </card>
-        <card className="iternary-main-card row my-3">
-          <span className="iternary-main-card-span col-4">
-            British Airways logo
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Depart</span>
-            <span className="iternary-main-card-innerspan-date">
-              11/11/2019
-            </span>
-            <span className="fs-5">7:34PM</span>
-          </span>
-          <span className="iternary-main-card-span col fs-6">
-            <span className="iternary-main-card-innerspan my-2">0 Stops</span>
-            <span className="iternary-main-card-innerspan-time fs-6">
-              6Hours 45mins
-            </span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Arrive</span>
-            <span className="iternary-main-card-innerspan-date">
-              12/11/2019
-            </span>
-            <span className="fs-5">2:45PM</span>
-          </span>
-          <span className="iternary-main-card-span col">
-            <span className="iternary-main-card-innerspan-title">Price</span>
-            <span className="iternary-main-card-innerspan-price">$ 856</span>
-          </span>
-        </card>
+        <DataTable
+          columns={column}
+          data={flights}
+          pagination
+          noTableHead={true}
+          paginationPerPage={4}
+        />
+        {/* {flights.map(CarrierCard)} */}
       </main>
     </section>
   );
