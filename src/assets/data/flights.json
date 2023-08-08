@@ -6,7 +6,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "6hours 24mins",
     "price": 856,
     "carrier": "1501"
   },
@@ -17,7 +17,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 0,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "4hours 30mins",
     "price": 980,
     "carrier": "1504"
   },
@@ -28,7 +28,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "5hours 20mins",
     "price": 1012,
     "carrier": "1501"
   },
@@ -39,7 +39,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "6hours 20mins",
     "price": 908,
     "carrier": "1503"
   },
@@ -50,7 +50,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "5hours 15mins",
     "price": 756,
     "carrier": "1500"
   },
@@ -61,7 +61,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 0,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "6hours 23mins",
     "price": 830,
     "carrier": "1500"
   },
@@ -72,7 +72,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "4hours 45mins",
     "price": 750,
     "carrier": "1501"
   },
@@ -83,7 +83,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "5hours 25mins",
     "price": 820,
     "carrier": "1503"
   },
@@ -94,7 +94,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "5hours 20mins",
     "price": 750,
     "carrier": "1501"
   },
@@ -105,7 +105,7 @@
     "arrivalDate": "11-11-2019",
     "arrivalTime": "7:34 AM",
     "stops": 1,
-    "flightDuration": "8hours 23mins",
+    "flightDuration": "6hours 10mins",
     "price": 820,
     "carrier": "1503"
   }
