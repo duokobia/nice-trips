@@ -1,13 +1,13 @@
 import Booking from '../../components/booking'
-import Iternary from '../../components/iternary'
+import Itinerary from '../../components/itinerary'
 
 const LandingPage = () => {
   return (
-    <div className='landingPage'>
-    <Booking />
-    <Iternary />
+    <div className="landingPage">
+      <Booking />
+      <Itinerary />
     </div>
-  )
+  );
 }
 
 export default LandingPage

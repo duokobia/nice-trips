@@ -30,7 +30,6 @@ code {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-  /* border: 2px solid green; */
 }
 
 /*Booking section*/
@@ -44,7 +43,6 @@ code {
   background-size: auto;
   width: 100%;
   min-height: 100vh;
-  /* border: 2px solid blue; */
 }
 .booking-header {
   margin: 30px 0;
@@ -113,7 +111,6 @@ code {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* border: 2px solid red; */
 }
 .form-header {
   color: #6682e2;
@@ -129,8 +126,8 @@ code {
   overflow: auto;
 }
 
-/*Iternary section */
-.iternary-container {
+/*itinerary section */
+.itinerary-container {
   flex: 3;
   display: flex;
   flex-direction: column;
@@ -142,26 +139,23 @@ code {
   min-height: 100vh;
   border: 0;
   border-left: 1px solid rgba(186, 186, 186, 0.75);
-  /* overflow-x: hidden; */
 }
-.iternary-header {
+.itinerary-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   color: #3045a3;
   width: 100%;
-  /* border: 2px solid red; */
 }
-.iternary-header-results-found {
+.itinerary-header-results-found {
   color: #9ea4c4;
 }
-.iternary-header nav {
+.itinerary-header nav {
   padding: 0;
   padding-right: 50px;
-  /* border: 2px solid green; */
 }
-.iternary-header nav ul {
+.itinerary-header nav ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -171,9 +165,8 @@ code {
   margin: 0;
   padding-right: 30px;
   padding: 0 30px;
-  /* border: 2px solid green; */
 }
-.iternary-header li {
+.itinerary-header li {
   width: 25%;
   background-color: white;
   font-size: 14px;
@@ -182,7 +175,7 @@ code {
   list-style-type: none;
   background-color: #e9f0f8;
 }
-.iternary-header-btn {
+.itinerary-header-btn {
   list-style-type: none;
   text-decoration-style: none;
   background-color: #faf9f6 !important;
@@ -190,11 +183,11 @@ code {
   border-radius: 25px !important;
   padding: 6px 20px !important;
 }
-.iternary-header-btn:hover {
+.itinerary-header-btn:hover {
   background-color: #0c5ed7 !important;
   color: #ffffff !important;
 }
-.iternary-header-card {
+.itinerary-header-card {
   padding: 20px 0 30px 0;
   margin: 0;
   color: #3045a3;
@@ -202,54 +195,74 @@ code {
   font-weight: 500;
   width: 100%;
   border-radius: 10px;
-  /*Sort the width later*/
 }
-.iternary-header-card-icon {
+.itinerary-header-card-icon {
   color: #9ea5c4;
 }
-.iternary-main {
+.itinerary-main {
   width: 100%;
   padding: 0 40px;
+  background-color: #e9f0f8 !important;
 }
-.iternary-main-card {
-  padding: 20px 0;
+.itinerary-main-card-container {
+  background-color: transparent !important;
+  background-color: #e9f0f8 !important;
+}
+.itinerary-main-card {
+  background-color: #f3f6fd !important;
+  padding: 15px 0;
   color: #3045a3;
   font-size: 24px;
   font-weight: 500;
-  border: 1px solid #c9d8cc;
   border-radius: 10px;
-}
-.iternary-main-card {
   border: 1px solid rgba(186, 186, 186, 0.75);
-  box-shadow: 0px 24px 57px 0px rgba(186, 186, 186, 0.75);
-  -webkit-box-shadow: 0px 24px 57px 0px rgba(186, 186, 186, 0.75);
-  -moz-box-shadow: 0px 24px 57px 0px rgba(186, 186, 186, 0.75);
+  box-shadow: 0px 4px 16px 0px rgba(122, 118, 118, 0.75);
+  -webkit-box-shadow: 0px 4px 16px 0px rgba(122, 118, 118, 0.75);
+  -moz-box-shadow: 0px 4px 16px 0px rgba(122, 118, 118, 0.75);
 }
-.iternary-main-card-span {
+.itinerary-main-card-span {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #3045a3;
 }
-.iternary-main-card-innerspan {
+.itinerary-main-card-img {
+  background-color: #f3f6fd !important;
+  background-color: transparent !important;
+  padding: 0;
+  margin: 0;
+}
+.itinerary-main-card-innerspan {
   border: 1px solid #c9d8cc;
   border-radius: 25px;
   background-color: #3045a3;
   color: white;
   padding: 5px 18px;
 }
-.iternary-main-card-innerspan-title {
+.itinerary-main-card-innerspan-title {
   font-size: 18px;
 }
-.iternary-main-card-innerspan-duration {
+.itinerary-main-card-innerspan-duration {
   font-size: 18px;
 }
-.iternary-main-card-innerspan-time {
+.itinerary-main-card-innerspan-time {
   font-size: 18px;
   font-weight: 200;
 }
-.iternary-main-card-innerspan-date {
+.itinerary-main-card-innerspan-date {
   font-size: 22px;
   font-weight: 300;
+}
+.VqMBs {
+  padding: 0;
+}
+.bPokRt:not(:last-of-type) {
+  border-bottom-style: none !important;
+}
+.hRfGpm {
+  display: block !important;
+  line-height: 200% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
