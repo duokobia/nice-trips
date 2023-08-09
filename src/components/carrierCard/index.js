@@ -2,7 +2,7 @@
 const CarrierCard = ( flight, index ) => {
   
   return (
-    <div className="itinerary-main-card-container container-fluid flex-fill">
+    <div className="itinerary-main-card-container container-fluid">
       <card className="itinerary-main-card row my-3 px-0">
         <span className="itinerary-main-card-span col-4">
           <img

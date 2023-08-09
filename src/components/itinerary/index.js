@@ -61,8 +61,7 @@ const Itinerary = () => {
         </card>
       </header>
       <main className="itinerary-main container-fluid">
-        <div className="row mx-0 px-0">
-          {/* <div className="col"> */}
+        <div className="row mx-0 px-0 w-100">
             <DataTable
               columns={column}
               data={flights}
@@ -71,7 +70,6 @@ const Itinerary = () => {
               paginationPerPage={4}
               className="d-block w-100"
             />
-          {/* </div> */}
         </div>
       </main>
     </section>
