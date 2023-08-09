@@ -15,7 +15,7 @@ const Itinerary = () => {
     },
   ];
   return (
-    <section className="itinerary-container container">
+    <section className="itinerary-container container-fluid">
       <header className="itinerary-header row">
         <div className="col-5">
           <h3 className="search col-md-12 mt-5 fs-2 ms-4">Search results</h3>
