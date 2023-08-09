@@ -214,6 +214,7 @@ code {
   color: #3045a3;
   font-size: 24px;
   font-weight: 500;
+  width: 100%;
   border-radius: 10px;
   border: 1px solid rgba(186, 186, 186, 0.75);
   box-shadow: 0px 4px 16px 0px rgba(122, 118, 118, 0.75);
@@ -270,4 +271,9 @@ code {
   background-color: #e9f0f8 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  margin: 0;
+  padding: 0;
+}
+.rdt_TableRow {
+  width: 100% !important;
 }
