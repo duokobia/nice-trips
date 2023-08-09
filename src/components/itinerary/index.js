@@ -12,10 +12,11 @@ const Itinerary = () => {
         return CarrierCard(row);
       },
       width: "100%",
+    
     },
   ];
   return (
-    <section className="itinerary-container container">
+    <section className="itinerary-container container-fluid">
       <header className="itinerary-header row">
         <div className="col-5">
           <h3 className="search col-md-12 mt-5 fs-2 ms-4">Search results</h3>
@@ -61,16 +62,16 @@ const Itinerary = () => {
       </header>
       <main className="itinerary-main container-fluid">
         <div className="row mx-0 px-0">
-          <div className="col">
+          {/* <div className="col"> */}
             <DataTable
               columns={column}
               data={flights}
               pagination
               noTableHead={true}
               paginationPerPage={4}
-              className=" mx-0 px-0"
+              className="d-block w-100"
             />
-          </div>
+          {/* </div> */}
         </div>
       </main>
     </section>
