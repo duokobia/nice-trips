@@ -68,7 +68,7 @@ const Itinerary = () => {
               pagination
               noTableHead={true}
               paginationPerPage={4}
-              className=" mx-0 px-0"
+              className="d-flex mx-0 px-0"
             />
           </div>
         </div>
