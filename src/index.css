@@ -205,8 +205,8 @@ code {
   background-color: #e9f0f8 !important;
 }
 .itinerary-main-card-container {
-  background-color: transparent !important;
   background-color: #e9f0f8 !important;
+  width: 100%;
 }
 .itinerary-main-card {
   background-color: #f3f6fd !important;
@@ -263,6 +263,11 @@ code {
 .hRfGpm {
   display: block !important;
   line-height: 200% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.fMOMgT {
+  background-color: #e9f0f8 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
